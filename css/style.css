@@ -39,7 +39,6 @@ body {
 	-webkit-font-smoothing: antialiased;
 	font-smoothing: antialiased;
 }
-
 h1,
 h2,
 h3,
@@ -327,7 +326,7 @@ ol {
 .header-section {
 	position: absolute;
 	left: 0;
-	top: 0;
+	top: -40px;
 	width: 100%;
 	padding: 0 15px;
 	padding-top: 55px;
@@ -496,6 +495,7 @@ ol {
 	-o-transition: all 0.2s ease 0.2s;
 	transition: all 0.2s ease 0.2s;
 	opacity: 1;
+	color: #c4ca36;
 }
 
 .hs-slider.owl-carousel .owl-item.active .hs-item .hi-text h1 {
